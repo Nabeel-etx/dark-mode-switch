@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  border: 1px;
+  border-color: aqua;
+}
+
+.example{
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  place-content: center;
+}
+.example.dark{
+  background-color: #131417;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  .inner{
+    background-color: #1F2229;
+    h2{
+      color: white;
+    }
+    span{
+      color: white;
+    }
+    p{
+      color: white;
+    }
+  }
+}
+
+.inner{
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+  display: inline-block;
+  margin-top: 40%;
+  border-radius: 8px;
+}
+
+.react-switch {
+  vertical-align: middle;
+  margin-left: 4px;
+}
